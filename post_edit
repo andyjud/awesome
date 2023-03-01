@@ -1,12 +1,17 @@
-<h1>Edit Post</h1>
-<div class="flex items-center mt-8">
-    <img class="object-cover w-20 h-20 rounded-lg mr-2" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg"> 
-    <span class="flex items-center text-lg pb-1">
-        <b>Post Title</b>
-    </span>
-</div>
-<form method='POST'>
-    <textarea rows=3 class="font-secondary text-xl" >This is the post caption</textarea>
-    <button type="submit" class="mt-6">Submit</button>
-    <a class="button secondaryAction ml-1" href="">Go Back</a>
-</form>
+<h4>Edit Post</h4>
+<article class="card">
+    <div class="flex items-center justify-between px-4 h-14">
+        <h3 class="w-[50%] truncate">Little Jedi</h3>
+        <div class="text-sm text-gray-500">flickr @ <a href="" class="hover:underline" target="blank">John Doe</a></div>
+    </div>
+    <figure>
+        <img class="w-full" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg">
+    </figure>
+    <div class="p-4 pb-2">
+        <form method='POST'>
+            <textarea rows=3 class="font1 text-4xl rounded-lg">Jedi Kitty protects the street</textarea>
+            <button type="submit">Submit</button>
+            <a class="button secondaryAction ml-1" href="">Go Back</a>
+        </form>
+    </div>
+</article>
