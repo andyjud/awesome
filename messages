@@ -1,11 +1,15 @@
-<div x-data="{ showMessage: true }" x-show="showMessage" class="flex items-center bg-teal-500 text-white text-sm font-bold p-4 max-w-xl mx-6 md:mx-auto my-4 text-center rounded-lg" role="alert">
-    <svg class="w-8 h-8 mr-2"  viewBox="0 0 512 512">
-        <path d="M315.27,33,96,304H224L192.49,477.23a2.36,2.36,0,0,0,2.33,2.77h0a2.36,2.36,0,0,0,1.89-.95L416,208H288L319.66,34.75A2.45,2.45,0,0,0,317.22,32h0A2.42,2.42,0,0,0,315.27,33Z" style="fill:none;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" fill="white"></path>
-    </svg>
-    <p class="text-lg">{{ message }}</p>
-    <div class="ml-auto cursor-pointer" @click="showMessage = false">
-        <svg fill="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8 ml-2">
-            <path d="M6 18L18 6M6 6l12 12"></path>
+{% if messages %}
+    {% for message in messages %}
+    <div x-data="{ showMessage: true }" x-show="showMessage" class="flex items-center bg-teal-500 text-white text-sm font-bold p-4 max-w-xl mx-6 md:mx-auto my-4 text-center rounded-lg" role="alert">
+        <svg class="w-8 h-8 mr-2"  viewBox="0 0 512 512">
+            <path d="M315.27,33,96,304H224L192.49,477.23a2.36,2.36,0,0,0,2.33,2.77h0a2.36,2.36,0,0,0,1.89-.95L416,208H288L319.66,34.75A2.45,2.45,0,0,0,317.22,32h0A2.42,2.42,0,0,0,315.27,33Z" style="fill:none;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" fill="white"></path>
         </svg>
-    </div>
-</div>
+        <p class="text-lg">{{ message }}</p>
+        <div class="ml-auto cursor-pointer" @click="showMessage = false">
+            <svg fill="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8 ml-2">
+                <path d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </div>
+    </div>   
+    {% endfor %}
+{% endif %}
