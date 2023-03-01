@@ -1,17 +1,15 @@
 <h4>Edit Post</h4>
-<article class="card">
-    <div class="flex items-center justify-between px-4 h-14">
-        <h3 class="w-[50%] truncate">Little Jedi</h3>
-        <div class="text-sm text-gray-500">flickr @ <a href="" class="hover:underline" target="blank">John Doe</a></div>
+<div class="card p-4">
+    <div class="flex items-center mb-4">
+        <img class="w-20 h-20 object-cover rounded-xl mr-4" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg}">
+        <h3 class="text-lg font-bold">Little Jedi</h3>
     </div>
-    <figure>
-        <img class="w-full" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg">
-    </figure>
-    <div class="p-4 pb-2">
+    
+    <div class="pb-2">
         <form method='POST'>
             <textarea rows=3 class="font1 text-4xl rounded-lg">Jedi Kitty protects the street</textarea>
             <button type="submit">Submit</button>
             <a class="button secondaryAction ml-1" href="">Go Back</a>
         </form>
     </div>
-</article>
+</div>
