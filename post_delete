@@ -5,7 +5,13 @@
     <span class="flex items-center text-lg pb-1">
         <b>Little Jedi</b>
     </span>
+    <img class="object-cover w-60 h-60 rounded-lg mr-4" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg"> 
+    <div class="flex flex-col gap-1.5">
+        <b>Little Jedi</b>
+        <div class="text-5xl font1">Jedi Kitty protects the street</div>
+    </div>
 </div>
+
 
 <form method='POST'>
     <button type="submit" class="mt-6">Confirm</button>
