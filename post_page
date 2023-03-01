@@ -1,0 +1,80 @@
+<div class="card">
+    <div class="h-14 flex items-center justify-between px-4">
+        <a href="https://www.flickr.com/photos/felicefelines/50618365686/in/explore-2020-11-18/" target="blank">
+            <h3 class="font-bold text-lg hover:text-purple-700 mt-4">Little Jedi</h3>
+        </a> 
+        <div class="text-sm text-gray-500">@ Felicity Berkleef</div>
+    </div>
+    <figure>
+        <a href=""><img class="w-full h-auto" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg"></a></figure>
+    <div class="card-body">
+        <div class="flex justify-between items-center"> 
+            <a class="flex items-center mb-4" href="">
+                <img class="object-cover w-8 h-8 rounded-full mr-2" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg"> 
+                <span class="icon-and-text hover:text-purple-700">Homer</span></a>
+        </div>
+        <p class="font-secondary text-4xl pt-1 pb-12">
+            This is a comment
+        </p>
+        <div class="flex items-center justify-items-end gap-2 mb-4">
+            <a class="bg-gray-200 hover:bg-purple-200 rounded-full py-1 px-3" href="">Animals</a>
+            <a class="bg-gray-200 hover:bg-purple-200 rounded-full py-1 px-3" href="">Black&White</a>
+        </div>
+        <div class="flex items-center justify-between">
+            <a class="text-link" href="">1 comment</a>
+            <span class="flex items-center gap-2">
+                <span class="flex items-center">
+                       <span class="flex items-center mr-4">
+                        <img class="object-cover w-4 h-4 rounded-full mr-2" src="https://img.icons8.com/material-outlined/50/000000/like.png"/>
+                        <span>1</span>    
+                    </span> 
+                    <a class="text-link" href="">Like</a>
+                </span> 
+                <a class="text-link" href="">Edit</a>
+                <a class="text-link" href="">Delete</a>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div id="tabs" class="mb-4 ml-4 flex gap-2"
+    hx-target="#tab-contents" 
+    hx-swap="innerHTML swap:0.1s"
+    _="on htmx:afterOnLoad take .selected for event.target"> 
+    <a class="selected tab">Oldest First</a>
+    <a class="tab">Top Captions</a>  
+</div>
+
+<div id="tab-contents">
+    <div class="card">
+        <div class="card-body">
+            <div class="flex justify-between items-center"> 
+                <a class="flex items-center mb-4" href="">
+                    <img class="object-cover w-8 h-8 rounded-full mr-2" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg"> 
+                    <span class="icon-and-text hover:text-purple-700">Bart</span></a>
+            </div>
+            <p class="font-secondary text-4xl pt-1 pb-6">
+                This is a comment from an user
+            </p>
+            <div class="flex items-center justify-end">
+                <span class="flex items-center gap-2">
+                    <span class="flex items-center">
+                        <span class="flex items-center mr-4">
+                            <img class="object-cover w-4 h-4 rounded-full mr-2" src="https://img.icons8.com/material-outlined/50/000000/like.png"/>
+                            <span>1</span>    
+                        </span> 
+                        <a class="text-link" href="">Like</a>
+                    </span> 
+                    <a class="text-link" href="">Delete</a>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form method="POST" class="card">
+    <div class="card-body flex flex-col">
+        <textarea class="textarea h-24 mb-5 px-5 py-4 rounded-lg font-secondary text-xl" placeholder="Add comment ..."></textarea>
+        <button class="btn btn-primary" type="submit">Add Caption</button>
+    </div>
+</form>
