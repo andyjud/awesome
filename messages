@@ -1,12 +1,11 @@
-<!-- Messages -->
-{% if messages %}
-    {% for message in messages %}
-        <div x-data="{ showMessage: true }" x-show="showMessage" class="flex items-center bg-green-400 text-white text-sm font-bold p-4 max-w-xl mx-6 md:mx-auto md:mb-2 mt-2 md:mt-2 text-center rounded-lg" role="alert">
-            <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M12.432 0c1.34 0 2.01.912 2.01 1.957 0 1.305-1.164 2.512-2.679 2.512-1.269 0-2.009-.75-1.974-1.99C9.789 1.436 10.67 0 12.432 0zM8.309 20c-1.058 0-1.833-.652-1.093-3.524l1.214-5.092c.211-.814.246-1.141 0-1.141-.317 0-1.689.562-2.502 1.117l-.528-.88c2.572-2.186 5.531-3.467 6.801-3.467 1.057 0 1.233 1.273.705 3.23l-1.391 5.352c-.246.945-.141 1.271.106 1.271.317 0 1.357-.392 2.379-1.207l.6.814C12.098 19.02 9.365 20 8.309 20z"/></svg>
-            <p>{{ message }}</p>
-            <div type="button" class="flex ml-auto cursor-pointer" @click="showMessage = false">
-                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" viewBox="0 0 24 24" stroke="currentColor" class="w-4 h-4 ml-4"><path d="M6 18L18 6M6 6l12 12"></path></svg>
-            </div>
-        </div>   
-    {% endfor %}
-{% endif %}
+<div x-data="{ showMessage: true }" x-show="showMessage" class="flex items-center bg-teal-500 text-white text-sm font-bold p-4 max-w-xl mx-6 md:mx-auto my-4 text-center rounded-lg" role="alert">
+    <svg class="w-8 h-8 mr-2"  viewBox="0 0 512 512">
+        <path d="M315.27,33,96,304H224L192.49,477.23a2.36,2.36,0,0,0,2.33,2.77h0a2.36,2.36,0,0,0,1.89-.95L416,208H288L319.66,34.75A2.45,2.45,0,0,0,317.22,32h0A2.42,2.42,0,0,0,315.27,33Z" style="fill:none;stroke:#ffffff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" fill="white"></path>
+    </svg>
+    <p class="text-lg">{{ message }}</p>
+    <div class="ml-auto cursor-pointer" @click="showMessage = false">
+        <svg fill="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8 ml-2">
+            <path d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+    </div>
+</div>
