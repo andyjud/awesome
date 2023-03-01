@@ -1,0 +1,21 @@
+<div class="card !p-8">
+    <h1>Create Post</h1>
+    <a href="https://www.flickr.com/explore" target="_blank" class="hover:underline text-gray-500">Find an image on Flickr</a>
+
+    <form method='POST'>
+        <p>
+            <label>Image:</label>
+            <input required="" >
+        </p>
+        <p>
+            <label for="id_title">Title:</label>
+            <input required="" >
+        </p>
+        <p>
+            <label for="id_artist">Artist:</label>
+            <input required="" >
+        </p>
+        <button type="submit" class="mt-1">Submit Post</button>
+        <a class="button secondaryAction ml-1" href="">Cancel</a>
+    </form>
+</div>
