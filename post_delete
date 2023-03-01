@@ -12,7 +12,6 @@
     </div>
 </div>
 
-
 <form method='POST'>
     <button type="submit" class="mt-6">Confirm</button>
     <a class="button secondaryAction ml-1" href="">Go Back</a>
