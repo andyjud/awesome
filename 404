@@ -1,5 +1,5 @@
 <div class="text-center mt-8 mb-8">
-    <h3 class="text-7xl">Page not found</h3>
+    <h1>Page not found</h1>
     <p class="my-6 mb-8"><b>Error 404 - This page doesn't exist or is unavailable</b></p>
     <button><a href="/">Go Back to Home</a></button>
 </div>
