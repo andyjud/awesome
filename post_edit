@@ -1,4 +1,4 @@
-<h4>Edit Post</h4>
+<h1>Edit Post</h1>
 <div class="card p-4">
     <div class="flex items-center mb-4">
         <img class="w-20 h-20 object-cover rounded-xl mr-4" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg}">
