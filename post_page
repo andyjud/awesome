@@ -27,7 +27,6 @@
             </div>
         </div>
     </div>
-
 </article>
 
 <div x-data="{ open: false }" >
