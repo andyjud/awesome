@@ -30,44 +30,41 @@
 
 </article>
 
-<div id="tabs" class="mb-4 ml-4 flex gap-2"
-    hx-target="#tab-contents" 
-    hx-swap="innerHTML swap:0.1s"
-    _="on htmx:afterOnLoad take .selected for event.target"> 
-    <a class="selected tab">Oldest First</a>
-    <a class="tab">Top Captions</a>  
+<div class="card !pb-0">
+    <form method="POST" class="p-4">
+        <textarea class="h-24 mb-2 px-5 py-4 text-xl" placeholder="Add comment ..."></textarea>
+        <button class="block" type="submit">Submit</button>
+    </form>
 </div>
 
-<div id="tab-contents">
-    <div class="card">
-        <div class="card-body">
+<div class="mb-20">
+    <div id="tabs" class="ml-4 flex gap-1"
+        hx-target="#tab-contents" 
+        hx-swap="innerHTML swap:0.1s"
+        _="on htmx:afterOnLoad take .selected for event.target"> 
+        <a class="tab selected">Top Comment</a>
+        <a class="tab">Newest</a>  
+        <a class="tab">Oldest</a>  
+    </div>
+
+    <div id="tab-contents">
+        <div class="card p-4">
             <div class="flex justify-between items-center"> 
-                <a class="flex items-center mb-4" href="">
-                    <img class="object-cover w-8 h-8 rounded-full mr-2" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg"> 
-                    <span class="icon-and-text hover:text-purple-700">Bart</span></a>
+                <a class="flex items-center gap-1 mb-2" href="">
+                    <img class="w-8 h-8 rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"> 
+                    <span class="font-bold hover:underline">Bart</span></a>
             </div>
-            <p class="font-secondary text-4xl pt-1 pb-6">
+            <p class="text-xl px-2 pb-2">
                 This is a comment from an user
             </p>
-            <div class="flex items-center justify-end">
-                <span class="flex items-center gap-2">
-                    <span class="flex items-center">
-                        <span class="flex items-center mr-4">
-                            <img class="object-cover w-4 h-4 rounded-full mr-2" src="https://img.icons8.com/material-outlined/50/000000/like.png"/>
-                            <span>1</span>    
-                        </span> 
-                        <a class="text-link" href="">Like</a>
-                    </span> 
-                    <a class="text-link" href="">Delete</a>
-                </span>
-            </div>
+            <div class="flex items-center justify-end text-sm px-2">
+                <div class="flex items-center gap-4 [&amp;>a:hover]:underline">
+                    <div class="flex items-center gap-1">
+                        <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">1</div>
+                    <a href="">Like</a>
+                    <a href="/post/delete/ed800b89-9f30-4381-9752-6ce19a4696f8">Delete</a>
+                </div>
+            </div> 
         </div>
     </div>
 </div>
-
-<form method="POST" class="card">
-    <div class="card-body flex flex-col">
-        <textarea class="textarea h-24 mb-5 px-5 py-4 rounded-lg font-secondary text-xl" placeholder="Add comment ..."></textarea>
-        <button class="btn btn-primary" type="submit">Add Caption</button>
-    </div>
-</form>
