@@ -8,8 +8,10 @@
     <div class="pb-2">
         <form method='POST'>
             <textarea rows=3 class="font1 text-4xl rounded-lg">Jedi Kitty protects the street</textarea>
-            <button type="submit">Submit</button>
-            <a class="button secondaryAction ml-1" href="">Go Back</a>
+            <div>
+                <button type="submit">Submit</button>
+                <a class="button secondaryAction ml-1" href="">Go Back</a>
+            </div>
         </form>
     </div>
 </div>
