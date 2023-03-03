@@ -1,0 +1,7 @@
+<h1>Delete Account</h1>
+<p>Are you sure you want to delete your account?</p>
+
+<form method='POST'>
+    <button type="submit" class="btn-red mt-6">Yes, I want to delete my account</button>
+    <a class="button secondaryAction ml-1" href="">Cancel</a>
+</form>
