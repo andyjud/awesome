@@ -41,7 +41,7 @@
 </div>
 
 <div class="mb-20">
-    <div id="tabs" class="ml-4 flex gap-1"
+    <div id="tabs" class="ml-4 flex gap-1 mb-4"
         hx-target="#tab-contents" 
         hx-swap="innerHTML swap:0.1s"
         _="on htmx:afterOnLoad take .selected for event.target"> 
