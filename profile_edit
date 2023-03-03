@@ -1,5 +1,5 @@
 <h1 class="mb-2">Edit Profile</h1>
-<p class="text-lg mb-10 text-gray-400">@ bart</p>
+<p class="text-lg mb-10 text-gray-400">bart</p>
 <form action="" method="POST" >
   <p>
     <label for="id_email">Email:</label>
@@ -21,7 +21,7 @@
     <label for="id_bio">Bio:</label>
     <textarea name="bio" cols="40" rows="3" id="id_bio">I hate school but I love hamburgers</textarea>
   </p>
-    <button type="submit" class="mt-6">Submit</button>
+    <button type="submit" >Submit</button>
     <a class="button secondaryAction ml-1" href="">Cancel</a>
 </form>
-<a class="button btn-red mt-20" href="">Delete Profile</a>
+<a class="mt-12 hover:underline text-gray-500" href="">Delete Profile</a>
