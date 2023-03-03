@@ -16,10 +16,10 @@
             <img class="object-cover w-6 h-6 mr-2 opacity-60" src="https://img.icons8.com/material-outlined/50/000000/marker.png"> 
             <span class="icon-and-text">Springfield</span>
         </div>
-        <div class="my-8">I hate school but I love hamburgers</div> 
+        <div class="my-8">I hate school but I love hamburgers
+        <a class="ml-2 text-sm text-gray-400 underline hover:text-gray-500" href="">Edit</a>
+        </div> 
     </div>
-
-    <div><a class="btn btn-outline" href="">Edit Profile</a></div>
 
     </div>
     </div>
