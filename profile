@@ -33,7 +33,7 @@
         </div>
     
         <div id="tab-contents">
-        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-x-8 md:p-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 items-start gap-x-8 md:p-6">
             <article class="card">
                 <div class="flex items-center justify-between px-4 h-14">
                     <h3 class="text-lg font-bold w-[50%] truncate">Little Jedi</h3>
