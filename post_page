@@ -65,7 +65,7 @@
                     <div class="flex items-center gap-1">
                         <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">1</div>
                     <a href="">Like</a>
-                    <a href="/post/delete/ed800b89-9f30-4381-9752-6ce19a4696f8">Delete</a>
+                    <a href="">Delete</a>
                 </div>
             </div> 
         </div>
