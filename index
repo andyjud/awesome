@@ -243,7 +243,7 @@
         <article class="card">
             <div class="flex items-center justify-between px-4 h-14">
                 <h3 class="text-lg font-bold w-[50%] truncate">Little Jedi</h3>
-                <div class="text-sm text-gray-500 truncate">flickr<a href="" class="hover:underline ml-2" target="blank">@John Doe</a></div>
+                <div class="text-sm text-gray-400 truncate">flickr<a href="" class="hover:underline ml-2" target="blank">@John Doe</a></div>
             </div>
             <figure>
                 <a href=""><img class="w-full" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg"></a>
@@ -252,6 +252,7 @@
                 <a class="flex items-center gap-1 mb-4" href="">
                     <img class="w-8 h-8 rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png">
                     <span class="font-bold hover:underline">Lisa</span>
+                    <span class="text-sm text-gray-400">@lisasimpson</span>
                 </a>
                 <p class="text-5xl mb-10 px-4 font1">Jedi Kitty protects the street</p>
                 <div class="flex items-center gap-2 text-sm mb-5">
