@@ -1,0 +1,18 @@
+<div id="tab-contents" class="w-full lg:w-[50rem]">
+    <div class="card p-4 !mb-4 !flex-row justify-between">
+        <div class="flex items-center">
+            <img class="w-20 h-20 object-cover rounded-xl mr-4" src="{{ comment.parent_post.image }}">
+            <span class="text-xl px-2">
+                This is a comment
+            </span>
+        </div>
+        <div class="flex items-center justify-end text-sm px-2">
+            <div class="flex items-center gap-4 [&amp;>a:hover]:underline">
+                <div class="flex items-center gap-1">
+                    <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">1</div>
+                <a href="">Like</a>
+                <a href="">Delete</a>
+            </div>
+        </div> 
+    </div>
+</div>
