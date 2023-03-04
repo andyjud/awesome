@@ -6,8 +6,7 @@
                     <img class="w-36 h-36 rounded-full object-cover mb-4" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg" />
                     <div class="text-center max-w-md">
                         <h1>Bart</h1>
-                        
-                        <div class="text-gray-400 mb-2 -mt-3">bartsimpson</div>
+                        <div class="text-gray-400 mb-2 -mt-3">@bartsimpson</div>
                         <div class="flex items-center justify-center mx-auto">
                             <img class="object-cover w-6 h-6 mr-1 opacity-60" src="https://img.icons8.com/material-outlined/50/000000/marker.png"> 
                             <span class="icon-and-text">Springfield</span>
@@ -16,7 +15,6 @@
                             I hate school but I love hamburgers
                             <a class="ml-2 text-sm text-gray-400 underline hover:text-gray-500" href="{% url 'profile-edit' %}">Edit</a>
                         </div> 
-                        
                     </div>
                 </div>
             </div>
