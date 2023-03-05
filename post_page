@@ -50,6 +50,7 @@
     </div>
 
     <div id="tab-contents">
+
         <div class="card p-4 !mb-4">
             <div class="flex justify-between items-center"> 
                 <a class="flex items-center gap-1 mb-2" href="">
@@ -57,37 +58,49 @@
                     <span class="font-bold hover:underline">Bart</span><span class="text-sm font-normal text-gray-400">@bartsimpson</span></a>
             </div>
             <p class="text-xl px-2">
-                This is a comment from an user
+                This is a comment from Bart
             </p>
             <div x-data="{ commentopen: false }" class="flex items-center justify-between flex-wrap text-sm px-2">
                 <a @click=" commentopen = !commentopen" class="font-bold hover:underline cursor-pointer">
-                    Replys
+                    Replies
                     <span class="font-light text-gray-500 ml-1">1</span>
                 </a>
-                <div class="flex items-center justify-end text-sm px-2">
-                    <div class="flex items-center gap-4 [&amp;>a:hover]:underline">
-                        <div class="flex items-center gap-1">
-                            <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">1</div>
-                        <a href="">Like</a>
-                        <a href="">Delete</a>
-                    </div>
+                <div class="flex items-center gap-4 [&>a:hover]:underline">
+                    <div class="flex items-center gap-1">
+                        <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">1</div>
+                    <a href="">Like</a>
+                    <a href="">Delete</a>
                 </div>
+
                 <div x-show="commentopen" class="basis-full mt-3 ml-8">
+
                     <div class="grid grid-cols-1 divide-y">
-                        <div class="flex py-4 ">
-                            <a href=""><img class="w-8 h-8 rounded-full mr-2" src="https://img.icons8.com/small/96/A9A9A9/happy.png"></a>
-                            <div class="w-full">
-                                <a class="block font-bold hover:underline" href="">Homer <span class="text-sm font-normal text-gray-400">@homersimpson</span></a>
-                                <div class="font-sm">Thi is a reply</div>
+                        <div class="flex items-center justify-between py-4">
+                            <div class="flex">
+                                <a href="" class="mr-2"><img class="w-8 h-8 rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"></a>
+                                <div class="w-fit">
+                                    <a class="block" href="">
+                                        <span class="font-bold hover:underline">Homer</span>
+                                        <span class="text-sm text-gray-400">@homersimpson</span>
+                                    </a>
+                                    <div class="font-sm mr-3">This is a reply from Homer</div>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-4 [&>a:hover]:underline">
+                                <div class="flex items-center gap-1">1</div>
+                                <a href="">Like</a>
+                                <a href="">Delete</a>
                             </div>
                         </div>
                     </div>
-                    <form method="POST" class="commentform flex justify-between">
-                        <input type="text" name="comment" placeholder="Add comment ..." maxlength="120"">
+
+                    <form method="POST" action="" class="commentform flex justify-between" autocomplete="off">
+                        <input type="text" name="reply" placeholder="Add reply ..." maxlength="150">
                         <button class="block" type="submit">Submit</button>
                     </form>
                 </div>
             </div> 
         </div>
+
     </div>
 </div>
