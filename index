@@ -304,7 +304,10 @@
             </ul>
         </section>
         <section class="card p-4">
-            <h2 class="">Top Post</h2>
+            <div class="flex items-center">
+                <img class="w-7 w-7 mr-1 -mt-3" src="https://img.icons8.com/ios-glyphs/90/null/fire-heart.png"/>
+                <h2>Top Post</h2>
+            </div>
             <ul class="hoverlist">
                 <li><a href="">
                     <img class="w-10 h-10 rounded-lg object-cover mr-3" src="https://live.staticflickr.com/65535/50618365686_36f887ab88_c.jpg">
@@ -321,7 +324,10 @@
             </ul>
         </section>
         <section class="card p-4">
-            <h2 class="">Top Comment</h2>
+            <div class="flex items-center">
+                <img class="w-7 w-7 mr-1 -mt-3" src="https://img.icons8.com/ios-glyphs/90/null/fire-heart.png"/>
+                <h2>Top Comments</h2>
+            </div>
             <ul class="hoverlist">
                 <li><a href="">
                     <img class="w-8 h-8 rounded-full object-cover mr-1" src="https://img.icons8.com/small/96/A9A9A9/happy.png">
