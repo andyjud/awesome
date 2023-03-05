@@ -46,8 +46,7 @@
         hx-swap="innerHTML swap:0.1s"
         _="on htmx:afterOnLoad take .selected for event.target"> 
         <a class="tab selected">Top Comment</a>
-        <a class="tab">Newest</a>  
-        <a class="tab">Oldest</a>  
+        <a class="tab">Newest First</a>  
     </div>
 
     <div id="tab-contents">
