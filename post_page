@@ -75,7 +75,7 @@
                 <div x-show="commentopen" class="basis-full mt-3 ml-8">
                     <div class="grid grid-cols-1 divide-y">
                         <div class="flex py-4 ">
-                            <a href=""><img class="w-8 h-8 rounded-full mr-4" src="https://img.icons8.com/small/96/A9A9A9/happy.png"></a>
+                            <a href=""><img class="w-8 h-8 rounded-full mr-2" src="https://img.icons8.com/small/96/A9A9A9/happy.png"></a>
                             <div class="w-full">
                                 <a class="block font-bold hover:underline" href="">Homer <span class="text-sm font-normal text-gray-400">@homersimpson</span></a>
                                 <div class="font-sm">Thi is a reply</div>
