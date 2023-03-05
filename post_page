@@ -56,7 +56,7 @@
                     <img class="w-8 h-8 rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"> 
                     <span class="font-bold hover:underline">Bart</span></a>
             </div>
-            <p class="text-xl px-2 pb-2">
+            <p class="text-xl px-2">
                 This is a comment from an user
             </p>
             <div class="flex items-center justify-end text-sm px-2">
