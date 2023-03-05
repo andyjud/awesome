@@ -62,7 +62,7 @@
             <div x-data="{ commentopen: false }" class="flex items-center justify-between flex-wrap text-sm px-2">
                 <a @click=" commentopen = !commentopen" class="font-bold hover:underline cursor-pointer">
                     Replys
-                    <span class="font-light text-gray-500 ml-1">5</span>
+                    <span class="font-light text-gray-500 ml-1">1</span>
                 </a>
                 <div class="flex items-center justify-end text-sm px-2">
                     <div class="flex items-center gap-4 [&amp;>a:hover]:underline">
