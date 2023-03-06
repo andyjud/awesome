@@ -55,13 +55,14 @@
             <div class="flex justify-between items-center"> 
                 <a class="flex items-center gap-1 mb-2" href="">
                     <img class="w-8 h-8 rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"> 
-                    <span class="font-bold hover:underline">Bart</span><span class="text-sm font-normal text-gray-400">@bartsimpson</span></a>
+                    <span class="font-bold hover:underline">Bart</span><span class="text-sm font-normal text-gray-400">@bartsimpson</span>
+                </a>
             </div>
             <p class="text-xl px-2">
                 This is a comment from Bart
             </p>
-            <div x-data="{ commentopen: false }" class="flex items-center justify-between flex-wrap text-sm px-2">
-                <a @click=" commentopen = !commentopen" class="font-bold hover:underline cursor-pointer">
+            <div x-data="{ repliesOpen: false }" class="flex items-center justify-between flex-wrap text-sm px-2">
+                <a @click=" repliesOpen = !repliesOpen" class="font-bold hover:underline cursor-pointer">
                     Replies
                     <span class="font-light text-gray-500 ml-1">1</span>
                 </a>
@@ -72,7 +73,7 @@
                     <a href="">Delete</a>
                 </div>
 
-                <div x-show="commentopen" class="basis-full mt-3 ml-8">
+                <div x-show="repliesOpen" class="basis-full mt-3 ml-8">
 
                     <div class="grid grid-cols-1 divide-y">
                         <div class="flex items-center justify-between py-4">
@@ -94,7 +95,7 @@
                         </div>
                     </div>
 
-                    <form method="POST" action="" class="commentform flex justify-between" autocomplete="off">
+                    <form method="POST" action="" class="replyform flex justify-between" autocomplete="off">
                         <input type="text" name="reply" placeholder="Add reply ..." maxlength="150">
                         <button class="block" type="submit">Submit</button>
                     </form>
