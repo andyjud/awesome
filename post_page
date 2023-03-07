@@ -34,7 +34,7 @@
     <div x-show="open" class="card !pb-0">
         <form method="POST" class="p-4">
             <textarea class="h-24 mb-2 px-5 py-4 text-xl" placeholder="Add comment ..."></textarea>
-            <button class="block" type="submit">Submit</button>
+            <button @click="open = false" class="block" type="submit">Submit</button>
             <a @click="open = false" class="button cursor-pointer secondaryAction ml-1">Cancel</a>
         </form>
     </div>
@@ -43,10 +43,9 @@
 <div class="mb-20">
     <div id="tabs" class="ml-4 flex gap-1 mb-4"
         hx-target="#tab-contents" 
-        hx-swap="innerHTML swap:0.1s"
-        _="on htmx:afterOnLoad take .selected for event.target"> 
-        <a class="tab selected">Top Comment</a>
-        <a class="tab">Newest First</a>  
+        hx-swap="innerHTML">
+        <a class="tab">Newest First</a> 
+        <a class="tab selected">Top Comments</a>
     </div>
 
     <div id="tab-contents">
