@@ -30,7 +30,7 @@
             <a class="tab">Liked Posts</a>
         </div>
     
-        <div id="tab-contents">
+        <div id="tab-contents" class="w-full flex flex-col items-center">
         <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 items-start gap-x-8 md:p-6">
             <article class="card">
                 <div class="flex items-center justify-between px-4 h-14">
