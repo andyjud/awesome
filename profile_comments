@@ -2,7 +2,7 @@
 
 {% for comment in comments %}
 <div class="card p-4 !mb-4 !flex-row">
-    <a href="{% url 'post' comment.parent_post.id %}"><img class="w-20 h-20 object-cover rounded-xl mr-4" src="{{ comment.parent_post.image }}"></a>
+    <a href="{% url 'post' comment.parent_post.id %}" class="contents"><img class="w-20 h-20 object-cover rounded-xl mr-4" src="{{ comment.parent_post.image }}"></a>
     <div class="grow">
         <div class="flex justify-between items-center"> 
             <a class="flex items-center gap-1 mb-2" href="{% url 'profile' comment.author.username %}">
