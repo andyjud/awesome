@@ -24,7 +24,7 @@
             hx-target="#tab-contents" 
             hx-swap="innerHTML swap:0.1s"
             _="on htmx:afterOnLoad take .selected for event.target"> 
-            <a class="tab selected">Latest</a>
+            <a class="tab selected">Last Posts</a>
             <a class="tab">Top Posts</a>  
             <a class="tab">Top Comments</a>
             <a class="tab">Liked Posts</a>
