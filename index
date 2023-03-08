@@ -255,7 +255,7 @@
                     <span class="text-sm text-gray-400">@lisasimpson</span>
                 </a>
                 <p class="text-5xl mb-10 px-4 font1">Jedi Kitty protects the street</p>
-                <div class="flex items-center gap-2 text-sm mb-5">
+                <div class="flex items-center gap-2 text-sm mb-5 flex-wrap">
                     <a class="bg-gray-200 rounded-full px-3 py-1 hover:bg-gray-800 hover:text-white" href="">Animals</a>
                     <a class="bg-gray-200 rounded-full px-3 py-1 hover:bg-gray-800 hover:text-white" href="">Cute</a>
                 </div>
