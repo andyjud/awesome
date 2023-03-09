@@ -242,7 +242,7 @@
     <main class="col-span-full md:col-span-2 mx-[5%] md:mx-[10%] order-2 md:order-1">
         <article class="card">
             <div class="flex items-center justify-between px-4 h-14">
-                <h3 class="text-lg font-bold w-[50%] truncate">Little Jedi</h3>
+                <h3 class="text-start leading-5 mr-1">Little Jedi</h3>
                 <div class="text-sm text-gray-400 truncate">flickr<a href="" class="hover:underline ml-2" target="blank">@John Doe</a></div>
             </div>
             <figure>
