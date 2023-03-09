@@ -1,6 +1,6 @@
 <div class="flex flex-col items-center">
     
-        <div class="w-full lg:w-[50rem]">
+        <div class="w-full md:w-[36rem] lg:w-[50rem]">
             <div class="card p-6">
                 <div class="text-center flex flex-col items-center">
                     <img class="w-36 h-36 rounded-full object-cover mb-4" src="https://icon-library.com/images/default-profile-icon/default-profile-icon-8.jpg" />
