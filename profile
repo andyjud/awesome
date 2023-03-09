@@ -1,4 +1,4 @@
-<div class="flex flex-col items-center">
+<div class="flex flex-col items-center p-6">
     
         <div class="w-full md:w-[36rem] lg:w-[50rem]">
             <div class="card p-6">
@@ -31,7 +31,7 @@
         </div>
     
         <div id="tab-contents" class="w-full flex flex-col items-center pb-12">
-        <div class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 items-start gap-x-8 md:p-6">
+        <div class="max-w-xl gap-x-8 lg:columns-2 lg:max-w-5xl xl:columns-3 xl:max-w-7xl">
             <article class="card">
                 <div class="flex items-center justify-between px-4 h-14">
                     <h3 class="text-lg font-bold w-[50%] truncate">Little Jedi</h3>
