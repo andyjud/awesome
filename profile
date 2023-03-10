@@ -31,7 +31,7 @@
         </div>
     
         <div id="tab-contents" class="w-full flex flex-col items-center pb-12">
-        <div class="max-w-xl gap-x-8 lg:columns-2 lg:max-w-5xl xl:columns-3 xl:max-w-7xl">
+        <div class="max-w-xl gap-x-8 mx-auto lg:columns-2 lg:max-w-5xl xl:columns-3 xl:max-w-7xl">
             <article class="card">
                 <div class="flex items-center justify-between px-4 h-14">
                     <h3 class="text-lg font-bold w-[50%] truncate">Little Jedi</h3>
