@@ -249,7 +249,7 @@
 <header x-data="{ mobilenavOpen: false }" class="md:flex items-center justify-between [&>*]:px-8 bg-gray-800 h-20 text-white sticky top-0 z-40">
     <div class="flex items-center justify-between h-20">
         <logo>
-            <a class="flex items-center gap-1" href="">
+            <a class="flex items-center gap-1" href="/">
                 <img class="w-7 -mt-1" src="https://img.icons8.com/small/64/ffffff/fire-heart.png"/>
                 <span class="text-lg font-bold">Awesome</span>
             </a>
