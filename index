@@ -92,7 +92,7 @@
             @apply !bg-indigo-100;
         }
         .title-fadein {
-            animation: 1s fadeIn;
+            animation: 0.3s fadeIn;
         }
         @keyframes fadeIn {
             0% { opacity: 0; }
