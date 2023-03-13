@@ -237,10 +237,10 @@
             display: none;
         }
         #profile article figure img {
-            @apply aspect-[3/2] object-cover
+            @apply aspect-[3/2] object-cover;
         }
         #profile article p {
-            @apply truncate
+            @apply truncate leading-normal;
         }
     </style>
 </head>
