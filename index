@@ -18,20 +18,17 @@
         :root {
             --primary: rgb(88, 40, 244);
             --primary-hover: rgb(69, 29, 200);
+            --black: #1f2937;
             --font1: 'Lobster', sans-serif;
         }
         h1 {
-            font-size: 4rem;
-            line-height: 1.2;
-            font-weight: bold;
-            margin-bottom: 1rem;
-            font-family: var(--font1);
+            @apply text-4xl font-bold mb-4
         }
         h2 {
-            font-size: 1.5rem; 
-            font-weight: bold;
-            line-height: 2rem;
-            margin-bottom: 0.75rem;
+            @apply text-2xl font-bold mb-3
+        }
+        h3 {
+            @apply text-lg font-bold 
         }
         .font1 {
             font-family: var(--font1);
@@ -53,6 +50,7 @@
             transition-duration: .2s;
             color: white;
             background-color: var(--primary);
+            width: fit-content;
         }
         .button:hover, button:hover, [type='submit']:hover, [type='button']:hover {
             background-color: var(--primary-hover);
@@ -63,7 +61,7 @@
         .secondaryAction {
             background-color: white;
             color: rgba(0, 0, 0, 0.6);
-            border: 2px solid rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(0, 0, 0, 0.3);
         }
         .secondaryAction:hover, .button.secondaryAction:hover {
             background-color: rgba(0, 0, 0, 0.05);
@@ -81,6 +79,7 @@
             margin-bottom: 2rem;
             background-color: white;
             padding-bottom: 1rem;
+            width: 100%;
         }
         .hoverlist>* {
             @apply hover:bg-gray-100 rounded-md transition duration-150;
@@ -91,16 +90,20 @@
         .highlight {
             @apply !bg-indigo-100;
         }
-        .title-fadein {
-            animation: 0.3s fadeIn;
+        .titleBlip {
+            animation: 1s fadeIn;
         }
         @keyframes fadeIn {
             0% { opacity: 0; }
             10% { opacity: 0; }
             100% { opacity: 1; }
         }
-        form {
-            margin-top: 1.5rem;
+        html, body {
+            margin: 0;
+            min-height: 100%;
+        }
+        p {
+            margin-bottom: 1rem;
         }
         form p {
             display: flex;
@@ -130,32 +133,54 @@
         input[name="remember"] {
             width: auto;
         }
-        #id_tags{
-            padding-top: 0.5rem;
+        .btn-red {
+            @apply inline-flex bg-red-500;
+        }
+        .btn-red:hover {
+            @apply bg-red-600;
+        }
+        .login .secondaryAction {
+            box-shadow: none;
+            display: block;
+            padding: none;
+            padding: 0px;
+            border: none;
+            font-size: smaller;
+            font-weight: normal;
+            min-height: auto;
+            margin-bottom: 1.5rem;
+        }
+        .login .secondaryAction:hover {
+            @apply text-gray-500 underline bg-white;
+        }
+        #id_tags {
+            margin-bottom: 1rem;
         }
         #id_tags div {
             display: inline-block;
-            margin-right: 0.5rem;
-            margin-bottom: 0.5rem;
+            margin-right: 0.5rem;  
         }
         #id_tags div label {
-            display: inline-flex;
-            align-items: center;
             border-radius: 9999px;
-            padding: 0.25rem 0.75rem;
-            border: 2px solid rgb(229 231 235);
+            padding: 0.5rem 1rem;
+            border: 1px solid rgb(229 231 235);
             width: auto;
             cursor: pointer;
+            user-select: none;
         }
-        #id_tags div label input {
-            width: auto;
-            margin-right: 5px;
+        #id_tags input {
+            display: none;
+        }
+        #id_tags label:has(input:checked) {
+            background-color: var(--black);
+            color: white;
+            border: 1px solid var(--black);
         }
         .textarea, textarea {
             margin-bottom: 1rem;
         }
         .textarea, textarea, input {
-            border-radius: var(--radius-sm);
+            border-radius: 0.5rem;
             padding: 1rem 1.2rem;
             background-color: rgba(232, 240, 254, 1);
         }
@@ -168,12 +193,54 @@
         }
         .tab {
             cursor: pointer;
-            padding: 0.3rem;
-            color: rgb(0,0,0,0.4);
+            padding: 0.75rem 1rem;
+            color: rgb(0,0,0,0.6); 
+            background-color: rgb(0,0,0,0.05);
+            border-radius: 0.75rem;
+            text-align: center;
+            display: flex;
+            align-items: center;
+        }
+        .tab:hover {
+            background-color: rgb(0,0,0,0.1);
         }
         .tab.selected {
-            border-bottom: 1px solid grey;
-            color: black;
+            color: white;
+            background-color: var(--black);
+        }
+        .replyform textarea, .replyform input {
+            padding: 0.75rem 1rem;
+            background-color: rgb(0,0,0,0.05);
+            font-size: 1rem;
+            margin-bottom: 0px;
+            height: 3.2rem;
+        }
+        .replyform button {
+            margin-left: 0.5rem;
+            min-height: unset;
+        }
+        .divide-y {
+            border-top-width: 1px;
+            border-bottom-width: 0px;
+        }
+        .fade-me-in.htmx-settling{
+            opacity: 0;
+        }
+        .fade-me-in {
+            opacity: 1;
+            transition: opacity 1s ease-out;
+        }
+        my-replies .oob-replies {
+            display: none;
+        }
+        #tab-contents .oob-comments {
+            display: none;
+        }
+        #profile article figure img {
+            @apply aspect-[3/2] object-cover
+        }
+        #profile article p {
+            @apply truncate
         }
     </style>
 </head>
