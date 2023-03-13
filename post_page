@@ -44,8 +44,8 @@
     <div id="tabs" class="ml-4 flex gap-1 mb-4"
         hx-target="#tab-contents" 
         hx-swap="innerHTML">
-        <a class="tab">Newest First</a> 
-        <a class="tab selected">Top Comments</a>
+        <a class="tab selected">Newest First</a> 
+        <a class="tab">Top Comments</a>
     </div>
 
     <div id="tab-contents">
