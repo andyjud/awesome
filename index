@@ -267,7 +267,7 @@
     x-transition:enter-end="opacity-100 translate-y-0"
     >
         <ul class="flex items-center navitems flex-col md:flex-row gap-8 md:gap-0 justify-center h-full -translate-y-10 md:translate-y-0">
-            <li><a href="">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="">Create Post</a></li>
             <li x-data="{ dropdownOpen: false }" class="relative">
                 <a @click="dropdownOpen = !dropdownOpen" @click.away="dropdownOpen = false" class="cursor-pointer select-none">
