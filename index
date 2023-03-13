@@ -91,7 +91,7 @@
         .highlight {
             @apply !bg-indigo-100;
         }
-        .titleBlip {
+        .title-fadein {
             animation: 1s fadeIn;
         }
         @keyframes fadeIn {
@@ -226,7 +226,7 @@
 <hero class="grid bg-gray-700 text-white text-center bg-cover z-10 relative bg-[url('https://live.staticflickr.com/65535/49909538937_3255dcf9e7_b.jpg')]">
     <div class="col-start-1 row-start-1 bg-gray-800 bg-opacity-40 w-full h-full"></div>
     <div class="col-start-1 row-start-1 py-24 px-10 ">
-        <h1 class="titleBlip">Awesome Photos & Captions</h1>
+        <h1 class="title-fadein">Awesome Photos & Captions</h1>
         <p class="text-lg font-bold mb-5">Share your favorite Photos from Flickr and add a great caption</p>
         <a class="button" href="">Get Started</a>
     </div>
