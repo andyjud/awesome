@@ -1,6 +1,6 @@
 <h1 class="mb-2">Edit Profile</h1>
 <p class="text-lg mb-10 text-gray-400">@bartsimpson</p>
-<form action="" method="POST" >
+<form method="POST" >
     <p>
       <label for="id_image">Image:</label>
       <input type="file" name="image" accept="image/*" id="id_image">
