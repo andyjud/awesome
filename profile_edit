@@ -1,26 +1,26 @@
 <h1 class="mb-2">Edit Profile</h1>
 <p class="text-lg mb-10 text-gray-400">@bartsimpson</p>
 <form action="" method="POST" >
-  <p>
-    <label for="id_email">Email:</label>
-    <input type="email" name="email" value="bart@email.com" maxlength="254" required="" id="id_email">
-  </p>
-  <p>
-    <label for="id_image">Avatar:</label>
-    <input type="file" name="image" accept="image/*" id="id_image">
-  </p>
-  <p>
-    <label for="id_name">Name:</label>
-    <input type="text" name="name" value="Bart Simpson" maxlength="20" id="id_name">
-  </p>
-  <p>
-    <label for="id_location">Location:</label>
-    <input type="text" name="location" value="Springfield" maxlength="200" id="id_location">
-  </p>
-  <p>
-    <label for="id_bio">Bio:</label>
-    <textarea name="bio" cols="40" rows="3" id="id_bio">I hate school but I love hamburgers</textarea>
-  </p>
+    <p>
+      <label for="id_email">Email:</label>
+      <input type="email" name="email" value="bart@email.com" maxlength="254" required="" id="id_email">
+    </p>
+    <p>
+      <label for="id_image">Avatar:</label>
+      <input type="file" name="image" accept="image/*" id="id_image">
+    </p>
+    <p>
+      <label for="id_name">Name:</label>
+      <input type="text" name="name" value="Bart Simpson" maxlength="20" id="id_name">
+    </p>
+    <p>
+      <label for="id_location">Location:</label>
+      <input type="text" name="location" value="Springfield" maxlength="200" id="id_location">
+    </p>
+    <p>
+      <label for="id_bio">Bio:</label>
+      <textarea name="bio" cols="40" rows="3" id="id_bio">I hate school but I love hamburgers</textarea>
+    </p>
     <button type="submit" >Submit</button>
     <a class="button secondaryAction ml-1" href="">Cancel</a>
 </form>
