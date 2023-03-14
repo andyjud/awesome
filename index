@@ -282,6 +282,7 @@
                 >
                     <ul class="hoverlist [&>li>a]:justify-end">
                         <li><a href="">My Profile</a></li>
+                        <li><a href="">Edit Profile</a></li>
                         <li><a href="">Log Out</a></li>
                     </ul>
                 </div>
