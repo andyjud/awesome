@@ -1,4 +1,4 @@
-<div id="profile" class="flex flex-col items-center px-6">
+<div id="profile" class="flex flex-col items-center">
     
     <div class="w-full md:w-[36rem] lg:w-[50rem]">
         <div class="card p-6">
