@@ -2,16 +2,16 @@
 <p class="text-lg mb-10 text-gray-400">@bartsimpson</p>
 <form action="" method="POST" >
     <p>
-      <label for="id_email">Email:</label>
-      <input type="email" name="email" value="bart@email.com" maxlength="254" required="" id="id_email">
-    </p>
-    <p>
-      <label for="id_image">Avatar:</label>
+      <label for="id_image">Image:</label>
       <input type="file" name="image" accept="image/*" id="id_image">
     </p>
     <p>
       <label for="id_name">Name:</label>
       <input type="text" name="name" value="Bart Simpson" maxlength="20" id="id_name">
+    </p>
+    <p>
+      <label for="id_email">Email:</label>
+      <input type="email" name="email" value="bart@email.com" maxlength="254" required="" id="id_email">
     </p>
     <p>
       <label for="id_location">Location:</label>
