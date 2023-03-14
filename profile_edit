@@ -1,5 +1,5 @@
 <h1 class="mb-2">Edit Profile</h1>
-<p class="text-lg mb-10 text-gray-400">bart</p>
+<p class="text-lg mb-10 text-gray-400">@bartsimpson</p>
 <form action="" method="POST" >
   <p>
     <label for="id_email">Email:</label>
