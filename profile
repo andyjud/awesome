@@ -21,14 +21,11 @@
         </div>
     </div>
 
-    <div id="tabs" class="flex justify-center my-4 gap-2"
-        hx-target="#tab-contents" 
-        hx-swap="innerHTML swap:0.1s"
-        _="on htmx:afterOnLoad take .selected for event.target"> 
-        <a hx-get=""class="tab selected">Latest</a>
-        <a hx-get="" class="tab" class="tab">Top Posts</a>  
-        <a hx-get="" class="tab">Top Comments</a>
-        <a hx-get="?liked-posts" class="tab">Liked Posts</a>
+    <div id="tabs" class="flex justify-center my-4 gap-2" > 
+        <a href="" class="tab selected">Latest</a>
+        <a href="" class="tab" class="tab">Top Posts</a>  
+        <a href="" class="tab">Top Comments</a>
+        <a href="" class="tab">Liked Posts</a>
     </div>
 
     <div id="tab-contents" class="w-full flex flex-col items-center pb-12">
