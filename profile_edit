@@ -31,3 +31,29 @@
     <a class="button secondaryAction ml-1" href="">Cancel</a>
 </form>
 <a class="mt-12 hover:underline text-gray-500" href="">Delete Profile</a>
+
+
+<script>
+    
+    // This updates the avatar
+    const fileInput = document.querySelector('input[type="file"]');
+
+    fileInput.addEventListener('change', (event) => {
+    const file = event.target.files[0];
+    const image = document.querySelector('#avatar');
+
+    if (file && file.type.includes('image')) {
+        const url = URL.createObjectURL(file);
+        image.src = url;
+    }
+    });
+
+    // This updates the name
+    const realnameInput = document.getElementById('id_realname');
+    const realnameOutput = document.getElementById('realname');
+
+    realnameInput.addEventListener('input', (event) => {
+    realnameOutput.innerText = event.target.value;
+    });
+
+</script>
