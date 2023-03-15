@@ -8,7 +8,7 @@
     </figure>
     <div class="p-4 pb-2">
         <a class="flex items-center gap-1 mb-4" href="">
-            <img class="w-8 h-8 rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png">
+            <img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png">
             <span class="font-bold hover:underline">Lisa</span>
         </a>
         <p class="text-5xl mb-10 px-4 font1">Jedi Kitty protects the street</p>
@@ -53,7 +53,7 @@
         <div class="card p-4 !mb-4">
             <div class="flex justify-between items-center"> 
                 <a class="flex items-center gap-1 mb-2" href="">
-                    <img class="w-8 h-8 rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"> 
+                    <img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"> 
                     <span class="font-bold hover:underline">Bart</span><span class="text-sm font-normal text-gray-400">@bartsimpson</span>
                 </a>
             </div>
@@ -82,7 +82,7 @@
                     <div class="grid grid-cols-1 divide-y">
                         <div class="flex items-center justify-between py-4">
                             <div class="flex">
-                                <a href="" class="mr-2"><img class="w-8 h-8 rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"></a>
+                                <a href="" class="mr-2"><img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"></a>
                                 <div class="w-fit">
                                     <a class="block" href="">
                                         <span class="font-bold hover:underline">Homer</span>
