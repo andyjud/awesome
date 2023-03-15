@@ -1,5 +1,5 @@
 {% if messages %}
-<div class="absolute mx-2 md:mx-auto top-0 left-0 right-0 max-w-xl z-50 flex items-center bg-amber-300 text-white p-3 mt-2 rounded-lg" role="alert"
+<div class="absolute mx-auto left-0 right-0 mt-2 max-w-xl z-50 flex items-center bg-amber-300 text-white p-3 rounded-lg" role="alert"
     x-data="{ showMessage: false }" 
     x-show="showMessage" 
     x-init="setTimeout(() => showMessage = true, 200), setTimeout(() => showMessage = false, 6000)"
