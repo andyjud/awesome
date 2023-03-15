@@ -230,12 +230,6 @@
             opacity: 1;
             transition: opacity 1s ease-out;
         }
-        my-replies .oob-replies {
-            display: none;
-        }
-        #tab-contents .oob-comments {
-            display: none;
-        }
         #profile article figure img {
             @apply aspect-[3/2] object-cover;
         }
