@@ -23,7 +23,7 @@
 
     <div id="tabs" class="flex justify-center my-4 gap-2" > 
         <a href="" class="tab selected">Latest</a>
-        <a href="" class="tab" class="tab">Top Posts</a>  
+        <a href="" class="tab">Top Posts</a>  
         <a href="" class="tab">Top Comments</a>
         <a href="" class="tab">Liked Posts</a>
     </div>
