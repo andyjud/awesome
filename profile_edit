@@ -2,7 +2,7 @@
 <div class="text-center flex flex-col items-center">
     <img id="avatar" class="w-36 h-36 rounded-full object-cover mb-4" src="https://pbs.twimg.com/profile_images/508601156767997952/fFTdKUf2_400x400.jpeg" />
     <div class="text-center max-w-md">
-        <h1>Bart</h1>
+        <h1 id="realname">Bart</h1>
         <div class="text-gray-400 mb-2 -mt-3">@bartsimpson</div>
     </div>
 </div>
