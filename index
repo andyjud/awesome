@@ -343,22 +343,30 @@
         <section class="card p-4">
             <h2>Categories</h2>
             <ul class="hoverlist">
-                <li class="highlight"><a href="">
-                    <img class="w-8 h-8 object-cover mr-2" src="https://img.icons8.com/small/96/null/landscape.png">
-                    <span class="font-bold text-sm">Landscape</span>
-                </a></li>
-                <li><a href="">
-                    <img class="w-8 h-8 object-cover mr-2" src="https://img.icons8.com/small/96/null/portrait.png">
-                    <span class="font-bold text-sm">People</span>
-                </a></li>
-                <li><a href="">
-                    <img class="w-8 h-8 object-cover mr-2" src="https://img.icons8.com/small/96/null/dog.png">
-                    <span class="font-bold text-sm">Animals</span>
-                </a></li>
-                <li><a href="">
-                    <img class="w-8 h-8 object-cover mr-2" src="https://img.icons8.com/small/96/null/180-degrees.png">
-                    <span class="font-bold text-sm">Black & White</span>
-                </a></li>
+                <li class="highlight">
+                    <a href="">
+                        <img class="w-8 h-8 object-cover mr-2" src="https://img.icons8.com/small/96/null/landscape.png">
+                        <span class="font-bold text-sm">Landscape</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="w-8 h-8 object-cover mr-2" src="https://img.icons8.com/small/96/null/portrait.png">
+                        <span class="font-bold text-sm">People</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="w-8 h-8 object-cover mr-2" src="https://img.icons8.com/small/96/null/dog.png">
+                        <span class="font-bold text-sm">Animals</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="w-8 h-8 object-cover mr-2" src="https://img.icons8.com/small/96/null/180-degrees.png">
+                        <span class="font-bold text-sm">Black & White</span>
+                    </a>
+                </li>
             </ul>
         </section>
         <section class="card p-4">
