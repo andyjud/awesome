@@ -3,7 +3,7 @@
     <div class="w-full md:w-[36rem] lg:w-[50rem]">
         <div class="card p-6">
             <div class="text-center flex flex-col items-center">
-                <img class="w-36 h-36 rounded-full object-cover mb-4" src="https://img.icons8.com/small/96/A9A9A9/happy.png" />
+                <img class="w-36 h-36 rounded-full object-cover mb-4" src="https://pbs.twimg.com/profile_images/508601156767997952/fFTdKUf2_400x400.jpeg" />
                 <div class="text-center max-w-md">
                     <h1>Bart</h1>
                     <div class="text-gray-400 mb-2 -mt-3">@bartsimpson</div>
