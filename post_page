@@ -31,7 +31,7 @@
 
 <div x-data="{ open: false }" >
     <div @click="open = true" x-show="!open" class="cursor-pointer hover:underline text-gray-500 mb-6 ml-5 -mt-2">Add Comment</div>
-    <div x-show="open" class="card !pb-0">
+    <div x-show="open" x-cloak class="card !pb-0">
         <form method="POST" class="p-4">
             <textarea class="h-24 mb-2 px-5 py-4 text-xl" placeholder="Add comment ..."></textarea>
             <button @click="open = false" class="block" type="submit">Submit</button>
