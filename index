@@ -332,7 +332,6 @@
                     </div>
                 </div>
             </div>
-
         </article>
     </main>
     <aside x-show="mobileSidebarOpen" x-cloak class="md:!block col-span-full md:col-span-1 lg:mr-[20%] order-1 md:order-2"
