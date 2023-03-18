@@ -77,7 +77,7 @@
                     <a href="">Delete</a>
                 </div>
 
-                <div x-show="repliesOpen" class="basis-full mt-3 ml-8">
+                <div x-show="repliesOpen" x-cloak class="basis-full mt-3 ml-8">
 
                     <div class="grid grid-cols-1 divide-y">
                         <div class="flex items-center justify-between py-4">
