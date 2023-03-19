@@ -50,7 +50,7 @@
 
     <div id="tab-contents">
 
-        <div class="card p-4 !mb-4">
+        <comment class="card p-4 !mb-4">
             <div class="flex justify-between items-center"> 
                 <a class="flex items-center gap-1 mb-2" href="">
                     <img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"> 
@@ -80,7 +80,8 @@
                 <div x-show="repliesOpen" x-cloak class="basis-full mt-3 ml-8">
 
                     <div class="grid grid-cols-1 divide-y">
-                        <div class="flex items-center justify-between py-4">
+                    
+                        <reply class="flex items-center justify-between py-4">
                             <div class="flex">
                                 <a href="" class="mr-2"><img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"></a>
                                 <div class="w-fit">
@@ -96,7 +97,8 @@
                                 <a href="">Like</a>
                                 <a href="">Delete</a>
                             </div>
-                        </div>
+                        </reply>
+                        
                     </div>
 
                     <form method="POST" class="replyform flex justify-between" autocomplete="off">
@@ -105,7 +107,7 @@
                     </form>
                 </div>
             </div> 
-        </div>
+        </comment>
 
     </div>
 </div>
