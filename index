@@ -208,6 +208,9 @@
             color: white;
             background-color: var(--black);
         }
+        .replyform {
+            border-top: none;
+        }
         .replyform textarea, .replyform input {
             padding: 0.75rem 1rem;
             background-color: rgb(0,0,0,0.05);
@@ -218,10 +221,6 @@
         .replyform button {
             margin-left: 0.5rem;
             min-height: unset;
-        }
-        .divide-y {
-            border-top-width: 1px;
-            border-bottom-width: 0px;
         }
         .fade-me-in.htmx-settling{
             opacity: 0;
