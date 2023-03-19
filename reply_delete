@@ -4,7 +4,7 @@
 
 <h1>Delete Reply</h1>
 
-<div class=" card px-6 pt-3 text-md mb-6">
+<div class=" card px-6 pt-3 text-md mb-6 [&>*>*>a]:text-sm">
 
     <reply class="flex items-center justify-between py-4">
         <div class="flex">
