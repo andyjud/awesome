@@ -81,7 +81,7 @@
                     <a href="">Delete</a>
                 </div>
 
-                <div x-show="repliesOpen" x-cloak class="basis-full mt-3 ml-8">
+                <div x-show="repliesOpen" x-cloak class="basis-full mt-3 pl-8">
 
                     <div class="grid grid-cols-1 divide-y">
                     
