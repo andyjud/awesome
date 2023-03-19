@@ -1,0 +1,39 @@
+{% extends 'layouts/b.html' %}
+
+{% block content %}
+
+<h1>Delete Reply</h1>
+
+<div class=" card px-6 pt-3 text-md mb-6">
+
+    <reply class="flex items-center justify-between py-4">
+        <div class="flex">
+            <a href="" class="mr-2"><img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"></a>
+            <div class="w-fit">
+                <a class="block" href="">
+                    <span class="font-bold hover:underline">Homer</span>
+                    <span class="text-sm text-gray-400">@homersimpson</span>
+                </a>
+                <div class="mr-3">This is a reply from Homer</div>
+            </div>
+        </div>
+        <div class="flex items-center gap-4 [&>a:hover]:underline">
+            <div class="flex items-center gap-1">
+                <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">
+                1
+            </div>
+            <a href="">Like</a>
+            <a href="">Delete</a>
+        </div>
+    </reply>
+
+</div>
+
+<p class="mb-6">Are you sure you want to delete this reply?</p>
+
+<form method='POST'>
+    <button type="submit">Confirm</button>
+    <a class="button secondaryAction ml-1" href="">Go Back</a>
+</form>
+
+{% endblock %}
