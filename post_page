@@ -89,7 +89,7 @@
                                         <span class="font-bold hover:underline">Homer</span>
                                         <span class="text-sm text-gray-400">@homersimpson</span>
                                     </a>
-                                    <div class="font-sm mr-3">This is a reply from Homer</div>
+                                    <div class="mr-3">This is a reply from Homer</div>
                                 </div>
                             </div>
                             <div class="flex items-center gap-4 [&>a:hover]:underline">
