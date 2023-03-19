@@ -6,7 +6,7 @@
 
 <div class=" card px-6 pt-3 text-md mb-6 [&>*>*>a]:text-sm">
 
-    <reply class="flex items-center justify-between py-4">
+    <reply class="flex items-end justify-between py-4">
         <div class="flex">
             <a href="" class="mr-2"><img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"></a>
             <div class="w-fit">
@@ -17,8 +17,8 @@
                 <div class="mr-3">This is a reply from Homer</div>
             </div>
         </div>
-        <div class="flex items-center gap-4 [&>a:hover]:underline">
-            <div class="flex items-center gap-1">
+        <div class="flex items-center gap-4 [&>a:hover]:underline [&>a]:text-sm">
+            <div class="flex items-center gap-1 text-sm">
                 <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">
                 1
             </div>
