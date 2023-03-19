@@ -20,7 +20,9 @@
             <a class="font-bold hover:underline" href="">Comments<span class="font-light text-gray-500 ml-2">3</span></a>
             <div class="flex items-center gap-4 [&>a:hover]:underline">
                 <div class="flex items-center gap-1">
-                    <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">1</div>
+                    <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">
+                    1
+                </div>
                 <a href="">Like</a>
                 <a href="">Edit</a>
                 <a href="">Delete</a>
