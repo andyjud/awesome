@@ -1,79 +1,15 @@
 <fade-in class="opacity-0 w-full" _="on load transition my opacity to 1 over 0.3 seconds">
-<div class="w-full lg:w-[50rem] mx-auto mb-20">
-
-    {% if comments %}
-
-    {% for comment in comments %}
-    <div class="card p-4 !mb-4 !flex-row">
-        <a href="{% url 'post' comment.parent_post.id %}" class="contents"><img class="w-20 h-20 object-cover rounded-xl mr-4" src="{{ comment.parent_post.image }}"></a>
-        <div class="grow">
-
-            <div class="flex justify-between items-center"> 
-                <a class="flex items-center gap-1 mb-2" href="{% url 'profile' comment.author.username %}">
-                    <img class="w-8 h-8 rounded-full" src="{{ comment.author.profile.avatar }}"> 
-                    <span class="font-bold hover:underline">{{ comment.author.profile.name }}</span><span class="text-sm font-normal text-gray-400">@{{ comment.author.username }}</span>
-                </a>
-            </div>
-
-            <p class="text-xl px-2">
-                {{ comment.body }}
-            </p>
-
-            <div x-data="{ repliesOpen: false }" class="flex items-center justify-between flex-wrap text-sm px-2">
-                <div id="replies-{{ comment.id }}">
-                    <a @click="repliesOpen = !repliesOpen" class="font-bold hover:underline cursor-pointer">
-                        {% if comment.replies.count != 0 %}
-                            <div class="inline-block" x-bind:class="repliesOpen && 'rotate-90 duration-300'">
-                                <svg transform ="rotate(90)" width="9" height="9" viewBox="0 0 25 25">
-                                    <path d="M24 22h-24l12-20z"/>
-                                </svg>
-                            </div>
-                            Replies
-                            <span class="font-light text-gray-500 ml-1">{{ comment.replies.count }}</span>
-                        {% endif %}
-                    </a>
-                </div>
-                <div class="flex items-center gap-4 [&>a:hover]:underline">   
-                    {% include 'snippets/actions_comment.html' %}
-                    {% if comment.author == request.user %}
-                    <a href="{% url 'comment-delete' comment.id %}">Delete</a>
-                    {% endif %}
-                </div>               
-                <div x-show="repliesOpen" class="basis-full mt-3 ml-8">
-                    <my-replies>
-                        {% for reply in comment.replies.all %}
-                            <div class="grid grid-cols-1 divide-y">
-                                <div class="flex items-center justify-between py-4">
-                                    <div class="flex">
-                                        <a href="" class="mr-2"><img class="w-8 h-8 rounded-full" src="{{ comment.author.profile.avatar }}"></a>
-                                        <div class="w-fit">
-                                            <a class="block" href="{% url 'profile' reply.author.username %}">
-                                                <span class="font-bold hover:underline">{{ reply.author.profile.name }}</span>
-                                                <span class="text-sm text-gray-400">@{{ reply.author.username }}</span>
-                                            </a>
-                                            <div class="font-sm mr-3">{{ reply.body }}</div>
-                                        </div>
-                                    </div>
-                                    <div class="flex items-center gap-4 [&>a:hover]:underline">
-                                        {% include 'snippets/actions_reply.html' %}
-                                        {% if reply.author == request.user %}
-                                        <a href="{% url 'reply-delete' reply.id %}">Delete</a>
-                                        {% endif %}
-                                    </div>
-                                </div>
-                            </div>
-                        {% endfor %}
-                    </my-replies>
+    <div class="w-full lg:w-[50rem] mx-auto mb-20">
     
-                </div>
-            </div> 
-        </div>
+        {% if comments %}
+    
+        {% for comment in comments %}
+        {% include 'a_posts/comment.html' %}
+        {% endfor %}
+    
+        {% else %}
+        <div class="w-full text-center mt-10">No likes on my comments just yet</div>
+        {% endif %}
+        
     </div>
-    {% endfor %}
-
-    {% else %}
-    <div class="w-full text-center mt-10">No likes on my comments just yet</div>
-    {% endif %}
-    
-</div>
 </fade-in>
