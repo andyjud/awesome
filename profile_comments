@@ -12,7 +12,7 @@
         {% endfor %}
     
         {% else %}
-        <div class="w-full text-center mt-10">No likes on my comments just yet</div>
+        <div class="w-full text-center mt-10">No comments just yet</div>
         {% endif %}
         
     </div>
