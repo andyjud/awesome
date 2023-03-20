@@ -22,10 +22,10 @@
     </div>
 
     <div id="tabs" class="flex justify-center my-4 gap-2" > 
-        <a href="" class="tab selected">Latest</a>
-        <a href="" class="tab">Top Posts</a>  
-        <a href="" class="tab">Top Comments</a>
-        <a href="" class="tab">Liked Posts</a>
+        <a class="tab selected">Latest</a>
+        <a class="tab">Top Posts</a>  
+        <a class="tab">Top Comments</a>
+        <a class="tab">Liked Posts</a>
     </div>
 
     <div id="tab-contents" class="w-full flex flex-col items-center pb-12">
