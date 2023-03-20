@@ -31,15 +31,11 @@
     </div>
 </article>
 
-<div x-data="{ open: false }" >
-    <div @click="open = true" x-show="!open" class="cursor-pointer hover:underline text-gray-500 mb-6 ml-5 -mt-2">Add Comment</div>
-    <div x-show="open" x-cloak class="card !pb-0">
-        <form method="POST" class="p-4">
-            <textarea class="h-24 mb-2 px-5 py-4 text-xl" placeholder="Add comment ..."></textarea>
-            <button @click="open = false" class="block" type="submit">Submit</button>
-            <a @click="open = false" class="button cursor-pointer secondaryAction ml-1">Cancel</a>
-        </form>
-    </div>
+<div class="card !pb-0 -mt-3">
+    <form method="POST" class="flex items-center p-4" autocomplete="off">
+        <input type="text" name="comment" placeholder="Add comment ..." maxlength="150">
+        <button @click="open = false" class="block ml-2" type="submit">Submit</button>
+    </form>
 </div>
 
 <div class="mb-20">
