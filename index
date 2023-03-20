@@ -405,7 +405,7 @@
                     <a href="" class="flex items-stretch justify-between">
                         <div class="flex items-center truncate">
                             <img class="w-6 h-6 rounded-full object-cover mr-1" src="https://img.icons8.com/small/96/A9A9A9/happy.png">
-                            <span class="font-bold text-sm mr-1 truncate">Homer</span>
+                            <span class="font-bold text-sm mr-1 truncate">Homer : This is a comment</span>
                         </div>
                         <span class="text-sm font-light text-grey-500 shrink-0">3 Likes / 1</span>
                     </a>
@@ -414,7 +414,7 @@
                     <a href="" class="flex items-stretch justify-between">
                         <div class="flex items-center truncate">
                             <img class="w-6 h-6 rounded-full object-cover mr-1" src="https://img.icons8.com/small/96/A9A9A9/happy.png">
-                            <span class="font-bold text-sm mr-1 truncate">Homer</span>
+                            <span class="font-bold text-sm mr-1 truncate">Homer : This is a comment</span>
                         </div>
                         <span class="text-sm font-light text-grey-500 shrink-0">3 Likes / 1</span>
                     </a>
