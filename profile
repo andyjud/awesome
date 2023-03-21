@@ -28,7 +28,7 @@
         <a class="tab">Liked Posts</a>
     </div>
 
-    <div id="tab-contents" class="w-full flex flex-col items-center pb-12">
+    <div id="tab-contents" class="w-full flex flex-col items-center">
         
         <div class="grid place-items-start gap-x-8 max-w-xl mx-auto lg:grid-cols-2 lg:max-w-5xl xl:grid-cols-3 xl:max-w-7xl">
 
