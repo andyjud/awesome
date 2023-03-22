@@ -81,7 +81,7 @@
 
                 <div x-show="repliesOpen" x-cloak class="basis-full mt-3 pl-8">
 
-                    <div class="grid grid-cols-1 divide-y border-t-2">
+                    <div class="grid grid-cols-1 divide-y">
                     
                         <reply class="flex items-center justify-between py-4">
                             <div class="flex">
