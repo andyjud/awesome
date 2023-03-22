@@ -83,7 +83,7 @@
 
                     <div class="grid grid-cols-1 divide-y">
                     
-                        <reply class="flex items-center justify-between py-4">
+                        <reply class="flex items-end justify-between py-4">
                             <div class="flex">
                                 <a href="">
                                     <img class="w-8 h-8 object-cover rounded-full mr-2" src="https://img.icons8.com/small/96/A9A9A9/happy.png">
