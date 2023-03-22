@@ -1,39 +1,35 @@
 <h1>Delete Comment</h1>
 
-<div class="mb-6">
-
-    <comment class="card p-4 !mb-4">
-        <div class="flex justify-between items-center"> 
-            <a class="flex items-center gap-1 mb-2" href="">
-                <img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"> 
-                <span class="font-bold hover:underline">Bart</span><span class="text-sm font-normal text-gray-400">@bartsimpson</span>
-            </a>
-        </div>
-        <p class="text-xl px-2">
-            This is a comment from Bart
-        </p>
-        <div x-data="{ repliesOpen: false }" class="flex items-center justify-between flex-wrap text-sm px-2">
-            <a @click=" repliesOpen = !repliesOpen" class="font-bold hover:underline cursor-pointer">
-                <div class="inline-block" x-bind:class="repliesOpen && 'rotate-90 duration-300'">
-                    <svg transform ="rotate(90)" width="9" height="9" viewBox="0 0 25 25">
-                        <path d="M24 22h-24l12-20z"/>
-                    </svg>
-                </div>
-                Replies
-                <span class="font-light text-gray-500 ml-1">1</span>
-            </a>
-            <div class="flex items-center gap-4 [&>a:hover]:underline">
-                <div class="flex items-center gap-1">
-                    <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">1</div>
-                <a href="">Like</a>
-                <a href="">Delete</a>
+<comment class="card p-4 !mb-4">
+    <div class="flex justify-between items-center"> 
+        <a class="flex items-center gap-1 mb-2" href="">
+            <img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"> 
+            <span class="font-bold hover:underline">Bart</span><span class="text-sm font-normal text-gray-400">@bartsimpson</span>
+        </a>
+    </div>
+    <p class="text-xl px-2">
+        This is a comment from Bart
+    </p>
+    <div x-data="{ repliesOpen: false }" class="flex items-center justify-between flex-wrap text-sm px-2">
+        <a @click=" repliesOpen = !repliesOpen" class="font-bold hover:underline cursor-pointer">
+            <div class="inline-block" x-bind:class="repliesOpen && 'rotate-90 duration-300'">
+                <svg transform ="rotate(90)" width="9" height="9" viewBox="0 0 25 25">
+                    <path d="M24 22h-24l12-20z"/>
+                </svg>
             </div>
-        </div> 
-    </comment>
+            Replies
+            <span class="font-light text-gray-500 ml-1">1</span>
+        </a>
+        <div class="flex items-center gap-4 [&>a:hover]:underline">
+            <div class="flex items-center gap-1">
+                <img class="w-5 -mt-1" src="https://img.icons8.com/small/24/000000/fire-heart.png">1</div>
+            <a href="">Like</a>
+            <a href="">Delete</a>
+        </div>
+    </div> 
+</comment>
 
-</div>
-
-<p class="mb-6">Are you sure you want to delete this comment?</p>
+<p class="my-6">Are you sure you want to delete this comment?</p>
 
 <form method='POST'>
     <button type="submit">Confirm</button>
