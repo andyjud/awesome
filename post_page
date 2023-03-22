@@ -61,7 +61,7 @@
                 This is a comment from Bart
             </p>
             <div x-data="{ repliesOpen: false }" class="flex items-center justify-between flex-wrap text-sm px-2">
-                <a @click=" repliesOpen = !repliesOpen" class="font-bold hover:underline cursor-pointer">
+                <a @click="repliesOpen = !repliesOpen" class="font-bold hover:underline cursor-pointer">
                     <div class="inline-block" x-bind:class="repliesOpen && 'rotate-90 duration-300'">
                         <svg transform ="rotate(90)" width="9" height="9" viewBox="0 0 25 25">
                             <path d="M24 22h-24l12-20z"/>
