@@ -2,7 +2,7 @@
 
 <div class="mb-6">
 
-    <div class="card p-4 !mb-4">
+    <comment class="card p-4 !mb-4">
         <div class="flex justify-between items-center"> 
             <a class="flex items-center gap-1 mb-2" href="">
                 <img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"> 
@@ -29,7 +29,7 @@
                 <a href="">Delete</a>
             </div>
         </div> 
-    </div>
+    </comment>
 
 </div>
 
