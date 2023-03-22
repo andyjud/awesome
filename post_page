@@ -85,7 +85,9 @@
                     
                         <reply class="flex items-center justify-between py-4">
                             <div class="flex">
-                                <a href="" class="mr-2"><img class="w-8 h-8 object-cover rounded-full" src="https://img.icons8.com/small/96/A9A9A9/happy.png"></a>
+                                <a href="">
+                                    <img class="w-8 h-8 object-cover rounded-full mr-2" src="https://img.icons8.com/small/96/A9A9A9/happy.png">
+                                </a>
                                 <div class="w-fit">
                                     <a class="block" href="">
                                         <span class="font-bold hover:underline">Homer</span>
