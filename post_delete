@@ -32,13 +32,13 @@
             </div>
         </article>
     </div>
-
-    <h1>Delete Post</h1>
-    <p class="mb-6">Are you sure you want to delete this post?</p>
-    
-    <form method='POST'>
-        <button type="submit">Confirm</button>
-        <a class="button secondaryAction ml-1" href="">Go Back</a>
-    </form>
-
+    <div>
+        <h1>Delete Post</h1>
+        <p class="mb-6">Are you sure you want to delete this post?</p>
+        
+        <form method='POST'>
+            <button type="submit">Confirm</button>
+            <a class="button secondaryAction ml-1" href="">Go Back</a>
+        </form>
+    </div>
 </div>
