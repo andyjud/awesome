@@ -13,7 +13,6 @@
                     </div>
                     <div class="my-8">
                         I hate school but I love hamburgers
-                        <a class="ml-2 text-sm text-gray-400 underline hover:text-gray-500" href="">Edit</a>
                     </div> 
                     
                 </div>
