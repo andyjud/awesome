@@ -337,8 +337,7 @@
     <aside x-show="mobileSidebarOpen" x-cloak class="md:!block col-span-full md:col-span-1 lg:mr-[20%] order-1 md:order-2"
     x-transition:enter="duration-300 ease-out"
     x-transition:enter-start="opacity-0 -mt-96"
-    x-transition:enter-end="opacity-100 mt-0"
-    >
+    x-transition:enter-end="opacity-100 mt-0">
         <section class="card p-4">
             <h2>Categories</h2>
             <ul class="hoverlist">
