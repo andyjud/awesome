@@ -9,7 +9,7 @@
                     <div class="text-gray-400 mb-2 -mt-3">@bartsimpson</div>
                     <div class="flex items-center justify-center mx-auto">
                         <img class="object-cover h-6 mr-1 opacity-60" src="https://img.icons8.com/material-outlined/50/000000/marker.png"> 
-                        <span class="icon-and-text">Springfield</span>
+                        Springfield
                     </div>
                     <div class="my-8">
                         I hate school but I love hamburgers
