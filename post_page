@@ -79,9 +79,9 @@
                     <a href="">Delete</a>
                 </div>
 
-                <div x-show="repliesOpen" x-cloak class="basis-full mt-3 pl-8 grid grid-cols-1 divide-y">
+                <div x-show="repliesOpen" x-cloak class="basis-full mt-3 pl-8 grid grid-cols-1">
 
-                    <reply class="flex items-end justify-between py-4">
+                    <reply class="flex items-end justify-between py-4 border-t">
                         <div class="flex">
                             <a href="">
                                 <img class="w-8 h-8 object-cover rounded-full mr-2" src="https://img.icons8.com/small/96/A9A9A9/happy.png">
