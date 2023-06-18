@@ -85,7 +85,7 @@
             @apply hover:bg-gray-100 rounded-md transition duration-150;
         }
         .hoverlist>*>a {
-            @apply flex items-center p-2 block;
+            @apply flex items-center p-2;
         }
         .highlight {
             @apply !bg-indigo-100;
