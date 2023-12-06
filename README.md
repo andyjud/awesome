@@ -18,9 +18,9 @@ A web app for posting flickr images, using a webcrawler.
 4. python manage.py migrate
 5. python manage.py createsuperuser
 6. python manage.py runserver
-
+  
 ---
-
+  
 ## How to add a feature
 
 1. Create feature branch: feature_nameofthefeature_yourname (change "nameoffeature" and "yourname")
@@ -37,9 +37,9 @@ except:
     feature_herobutton = False
 ```
 5. Change "1" with the id of the feature and "Yourname"
-
+  
 ---
-
+  
 ## Installation of Tailwind and Node
 
 1. Download node (nodejs.org, check if installed: node --version)
