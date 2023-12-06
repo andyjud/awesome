@@ -31,7 +31,7 @@ try:
 except:
     feature_herobutton = False
 ```
-
+5. Change "1" with the id of the feature and "Yourname"
 
 ## Installation of Tailwind and Node
 
