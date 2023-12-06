@@ -23,7 +23,6 @@ A web app for posting flickr images, using a webcrawler.
 4. Add feature toggle:
 ```python
 # views.py
-
 from a_features.views import feature_enabled
 
 try: 
@@ -33,6 +32,8 @@ except:
 ```
 5. Change "1" with the id of the feature and "Yourname"
 
+
+
 ## Installation of Tailwind and Node
 
 1. download node https://nodejs.org/
@@ -40,6 +41,7 @@ except:
 3. npm init -y && npm install tailwindcss && npx tailwindcss init && npm install clean-css-cli
 4. Change files:
 
+```
 # tailwind.config.js
 module.exports = {
   content: [ 
@@ -59,6 +61,9 @@ INTERNAL_IPS = (
     '127.0.0.1',
     'localhost:8000'
 )
+```
+
+
 
 5. npm run tailwind #to make CSS changes. ctrl+c to stop script
 6. npm run minify #minified version for production
