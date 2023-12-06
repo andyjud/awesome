@@ -23,6 +23,7 @@ A web app for posting flickr images, using a webcrawler.
 4. Add feature toggle:
 ```python
 # views.py
+
 from a_features.views import feature_enabled
 try: 
     feature_herobutton = feature_enabled(1, 'Yourname')
