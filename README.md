@@ -19,9 +19,8 @@ A web app for posting flickr images, using a webcrawler.
 5. python manage.py createsuperuser
 6. python manage.py runserver
 
-
-
-
+---
+---
 
 ## How to add a feature
 
@@ -40,9 +39,8 @@ except:
 ```
 5. Change "1" with the id of the feature and "Yourname"
 
-
-
-
+---
+---
 
 ## Installation of Tailwind and Node
 
