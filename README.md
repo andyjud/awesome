@@ -40,23 +40,24 @@ except:
 2. mkdir node && cd node
 3. npm init -y && npm install tailwindcss && npx tailwindcss init && npm install clean-css-cli
 4. Change files:
-
+#### # tailwind.config.js
 ```
-# tailwind.config.js
 module.exports = {
   content: [ 
     '../templates/**/*.html', 
     '../**/templates/**/*.html', 
     '../**/forms.py'
    ],
-
-# package.json  
+```
+#### # package.json
+```
 "scripts": {
     "tailwind": "tailwind build -i ../static/css/tailwind.css -o ../static/css/style.css --watch",
     "minify": "cleancss ../static/css/style.css -o ../static/css/style.min.css"
   },
-
-# settings
+```
+### # settings
+```
 INTERNAL_IPS = (
     '127.0.0.1',
     'localhost:8000'
