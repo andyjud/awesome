@@ -19,8 +19,10 @@ A web app for posting flickr images, using a webcrawler.
 5. python manage.py createsuperuser
 6. python manage.py runserver
   
----
   
+---
+
+    
 ## How to add a feature
 
 1. Create feature branch: feature_nameofthefeature_yourname (change "nameoffeature" and "yourname")
