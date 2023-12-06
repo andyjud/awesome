@@ -64,7 +64,7 @@ module.exports = {
     "minify": "cleancss ../static/css/style.css -o ../static/css/style.min.css"
   },
 ```
-#### # settings
+#### # settings.py
 ```
 INTERNAL_IPS = (
     '127.0.0.1',
