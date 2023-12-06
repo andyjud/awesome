@@ -4,20 +4,20 @@ A web app for posting flickr images, using a webcrawler.
 ## Installation
 
 1. Create folder and open up with your preferred IDE (eg. VS Code)
-2. Sign up to Github Desktop and Connect to Github account
-3. Clone repository with Github Desktop ( or terminal "git clone {repository URL} .")
-4. duplicate staticfiles folder and rename it to static
-5. get .env file and save it into the a_core folder
-6. Create and activate venv
-7. pip install -r requirements.txt
-8. python manage.py migrate
-9. python manage.py createsuperuser
-10. python manage.py runserver
+2. Download Github Desktop and connect to your Github account
+3. Clone repository with Github Desktop, choose the correct path to your folder
+4. Duplicate staticfiles folder and rename it "static"
+5. Get the .env file and save it into the a_core folder
+6. Activate Virtual Environment (eg. venv)
+8. pip install -r requirements.txt
+9. python manage.py migrate
+10. python manage.py createsuperuser
+11. python manage.py runserver
 
 
 ## How to add a feature
 
-1. Create feature branch: feature_nameoffeature_yourname # change "nameoffeature" and "yourname"
+1. Create feature branch: feature_nameofthefeature_yourname # change "nameoffeature" and "yourname"
 2. Add new feature to the a_features table in the admin panel
 3. In .env change DEVELOPER=YourName # change "YourName" 
 4. Add feature toggle:
