@@ -3,7 +3,7 @@ A web app for posting flickr images, using a webcrawler.
 
 ## Installation
 
-1. create folder and open up with VS Studio Code
+1. Create folder and open up with your preferred IDE (eg. VS Code)
 2. Sign up to Github Desktop and Connect to Github account
 3. Clone repository with Github Desktop ( or terminal "git clone {repository URL} .")
 4. duplicate staticfiles folder and rename it to static
