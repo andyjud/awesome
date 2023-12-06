@@ -3,16 +3,20 @@ A web app for posting flickr images, using a webcrawler.
 
 ## Installation
 
+### Set Up
 1. Create folder and open up with your preferred IDE (eg. VS Code)
 2. Download Github Desktop and connect to your Github account
 3. Clone repository with Github Desktop, choose the correct path to your folder
 4. Duplicate staticfiles folder and rename it "static"
 5. Get the .env file and save it into the a_core folder
-6. Activate Virtual Environment (eg. venv)
-8. pip install -r requirements.txt
-9. python manage.py migrate
-10. python manage.py createsuperuser
-11. python manage.py runserver
+
+### Terminal / Command Line
+1. Install Python (python.org, check if installed: python --version)
+2. Activate Virtual Environment (eg. venv)
+3. pip install -r requirements.txt
+4. python manage.py migrate
+5. python manage.py createsuperuser
+6. python manage.py runserver
 
 
 ## How to add a feature
@@ -36,10 +40,10 @@ except:
 
 ## Installation of Tailwind and Node
 
-1. download node https://nodejs.org/
+1. Download node (nodejs.org, check if installed: node --version)
 2. mkdir node && cd node
 3. npm init -y && npm install tailwindcss && npx tailwindcss init && npm install clean-css-cli
-4. Change files:
+4. Modify files:
 #### # tailwind.config.js
 ```
 module.exports = {
