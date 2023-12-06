@@ -22,7 +22,7 @@ A web app for posting flickr images, using a webcrawler.
 3. In the .env file change DEVELOPER=Yourname (change "Yourname") 
 4. Add feature toggle:
 ```python
-# views.py
+## views.py
 from a_features.views import feature_enabled
 
 try: 
