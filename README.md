@@ -17,14 +17,14 @@ A web app for posting flickr images, using a webcrawler.
 
 ## How to add a feature
 
-1. Create feature branch: feature_nameofthefeature_yourname // change "nameoffeature" and "yourname"
-2. Add new feature to the a_features table in the admin panel
-3. In .env change DEVELOPER=YourName # change "YourName" 
+1. Create feature branch: feature_nameofthefeature_yourname (change "nameoffeature" and "yourname")
+2. Add new feature to the Features table in the admin interface
+3. In the .env file change DEVELOPER=Yourname (change "Yourname") 
 4. Add feature toggle:
 # views.py
 from a_features.views import feature_enabled
 try: 
-    feature_herobutton = feature_enabled(1, 'YourName')
+    feature_herobutton = feature_enabled(1, 'Yourname')
 except:
     feature_herobutton = False
 
