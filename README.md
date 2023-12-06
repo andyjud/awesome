@@ -20,8 +20,8 @@ A web app for posting flickr images, using a webcrawler.
 1. Create feature branch: feature_nameofthefeature_yourname (change "nameoffeature" and "yourname")
 2. Add new feature to the Features table in the admin interface
 3. In the .env file change DEVELOPER=Yourname (change "Yourname") 
-4. Add feature toggle:
-### views.py
+4. Add feature toggle: 
+#### views.py
 ```python
 from a_features.views import feature_enabled
 
