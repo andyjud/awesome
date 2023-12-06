@@ -70,8 +70,12 @@ INTERNAL_IPS = (
 )
 ```
 
+### Tailwind Commands 
 
+#### Development
+1. npm run tailwind
+2. ctrl+c
 
-5. npm run tailwind #to make CSS changes. ctrl+c to stop script
-6. npm run minify #minified version for production
-7. cd .. && python manage.py collectstatic #move to parent folder and call collectstatic command
+#### Deployment
+1. npm run minify
+2. cd .. && python manage.py collectstatic
