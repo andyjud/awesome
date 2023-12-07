@@ -42,7 +42,7 @@ except:
   
 ---
   
-## < Installation of Tailwind and Node >
+## < Tailwind CSS Installation with Node >
 
 1. Download node (nodejs.org, check if installed: node --version)
 2. mkdir node && cd node
