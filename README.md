@@ -2,7 +2,7 @@
 A web app for posting flickr images, using a webcrawler.
 
 
-## -> Installation
+## < Installation >
 
 ### Set Up
 1. Create folder and open up with your preferred IDE (eg. VS Code)
@@ -23,7 +23,7 @@ A web app for posting flickr images, using a webcrawler.
 ---
 
     
-## -> How to add a feature
+## < How to add a feature >
 
 1. Create feature branch: feature_nameofthefeature_yourname (change "nameoffeature" and "yourname")
 2. Add new feature to the Features table in the admin interface
@@ -42,7 +42,7 @@ except:
   
 ---
   
-## -> Installation of Tailwind and Node
+## < Installation of Tailwind and Node >
 
 1. Download node (nodejs.org, check if installed: node --version)
 2. mkdir node && cd node
