@@ -48,7 +48,7 @@ except:
 2. mkdir node && cd node
 3. npm init -y && npm install tailwindcss && npx tailwindcss init && npm install clean-css-cli
 4. Modify files:
-#### # tailwind.config.js : where are the files with tailwind css classes
+#### # tailwind.config.js : location of the files with tailwind-css classes
 ```
 module.exports = {
   content: [ 
@@ -57,7 +57,7 @@ module.exports = {
     '../**/forms.py'
    ],
 ```
-#### # package.json : the scripts to run
+#### # package.json : scripts to run tailwind and minify stylesheet
 ```
 "scripts": {
     "tailwind": "tailwind build -i ../static/css/tailwind.css -o ../static/css/style.css --watch",
