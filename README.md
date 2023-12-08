@@ -46,6 +46,8 @@ except:
 
 This installation is only required if you make css changes on the site.
 
+## Tailwind Set Up 
+
 1. Download node (nodejs.org, check if installed: node --version)
 2. mkdir node && cd node
 3. npm init -y && npm install tailwindcss && npx tailwindcss init && npm install clean-css-cli
