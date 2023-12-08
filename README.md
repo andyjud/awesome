@@ -46,7 +46,7 @@ except:
 
 This installation is only required if you make css changes on the site.
 
-## Tailwind Set Up 
+### Tailwind Set Up 
 
 1. Download node (nodejs.org, check if installed: node --version)
 2. mkdir node && cd node
@@ -69,7 +69,7 @@ module.exports = {
   },
 ```
 
-## Tailwind Commands 
+### Tailwind Commands 
 
 #### Development
 1. npm run tailwind
