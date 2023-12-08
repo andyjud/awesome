@@ -7,7 +7,7 @@ A web app for posting flickr images, using a webcrawler.
 ### Set Up
 1. Create folder and open up with your preferred IDE (eg. VS Code)
 2. Download Github Desktop and connect to your Github account
-3. Clone repository with Github Desktop, choose the correct path to your folder
+3. Clone repository using Github Desktop (choose the correct path to your folder)
 4. Duplicate staticfiles folder and rename it "static"
 5. Get the .env file and save it into the a_core folder
 
@@ -43,6 +43,8 @@ except:
 ---
   
 ## < Tailwind CSS Installation with Node >
+
+This installation is only required if you make css changes on the site.
 
 1. Download node (nodejs.org, check if installed: node --version)
 2. mkdir node && cd node
