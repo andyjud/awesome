@@ -23,7 +23,7 @@ psycopg2-binary                    2.9.9<br>
 requests                           2.31.0<br>
 whitenoise                         6.6.0<br>
 
-
+<br><br>
 
 ## < Installation >
 
