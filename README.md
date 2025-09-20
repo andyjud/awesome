@@ -2,6 +2,29 @@
 A web app for posting flickr images, using a webcrawler.
 
 
+#### Packages
+
+beautifulsoup4                     4.12.3<br>
+cloudinary                         1.38.0<br>
+cryptography                       42.0.2<br>
+dj-database-url                    2.1.0<br>
+Django                             5.0.1<br>
+django-admin-honeypot-updated-2021 1.2.0<br>
+django-allauth                     0.60.1<br>
+django-cleanup                     8.1.0<br>
+django-cloudinary-storage          0.3.0<br>
+django-environ                     0.11.2<br>
+django-htmx                        1.17.2<br>
+django-resized                     1.0.2<br>
+django-storages                    1.14.2<br>
+gunicorn                           21.2.0<br>
+pillow                             10.2.0<br>
+psycopg2-binary                    2.9.9<br>
+requests                           2.31.0<br>
+whitenoise                         6.6.0<br>
+
+
+
 ## < Installation >
 
 ### Set Up
